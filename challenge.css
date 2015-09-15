@@ -1,0 +1,368 @@
+body {
+    width: 1050px;
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+    color: #505050;
+}
+h1 {
+    margin-top: 0px;
+    margin-bottom: 28px;
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 200;
+    color: #505050;
+    text-align: left;
+}
+h2 {
+    margin-top: 0px;
+    margin-bottom: 18px;
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 200;
+    color: #505050;
+    text-align: left;
+}
+h3 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #505050;
+    text-align: left;
+}
+h4 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #328fc2;
+    text-align: left;
+}
+p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #505050;
+    text-align: left;
+    line-height: 19px;
+}
+ul {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #505050;
+    text-align: left;
+    line-height: 19px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th {
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+    color: #505050;
+    text-align: right;
+}
+tr.even-row {
+    background-color: #eef5f0;
+    height: 45px;
+}
+tr.odd-row {
+    background-color: #ddebe1;
+    height: 45px;
+}
+tr.foot {
+    height: 45px;
+}
+td.bank-name {
+    width: 40%;
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: regular;
+    color: #505050;
+    text-align: left;
+    padding-left: 19px;
+}
+td.bank-rates {
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: regular;
+    color: #505050;
+    text-align: right;
+}
+td.bank-earnings {
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: regular;
+    color: #505050;
+    text-align: right;
+    padding-right: 19px;
+}
+button {
+    background-color: #650360;
+    border: none;
+    height: 35px;
+    width: 100%;
+    margin-bottom: 25px;
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: regular;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+}
+label {
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #505050;
+    text-align: left;
+}
+input {
+    height: 35px;
+    width: 300px;
+    font-size: 18px;
+    border: 1px solid #328fc2;
+}
+div.header {
+    width: 945px;
+    height: 45px;
+    padding-left: 105px;
+    padding-right: 100px;
+    background-color: #328fc2;
+}
+div.header-logo {
+    float: left;
+}
+div.header-logo img {
+    margin-top: 3px;
+}
+div.header-tab{
+    float: right;
+    width: 100px;
+    height: 35px;
+    padding-top: 10px;
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: regular;
+    color: #f9f8f9;
+    text-align: center;
+    cursor: pointer;
+}
+div.header-tab:hover{
+    color: #505050;
+}
+div.header-tab-selected{
+    float: right;
+    width: 100px;
+    height: 35px;
+    padding-top: 10px;
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #f9f8f9;
+    background-color: #006899;
+    text-align: center;
+    cursor: pointer;
+}
+div.header-tab-selected:hover{
+    color: #505050;
+}
+div.main {
+    clear: both;
+    width: 945px;
+    padding-left: 105px;
+    padding-right: 100px;
+    padding-top: 65;
+    background-color: white;
+}
+div.main-left {
+    float: left;
+    width: 670px;
+}
+div.main-right {
+    float: left;
+    width: 255px;
+    margin-left: 20px;
+}
+div.sidebar {
+    position: relative;
+    width: 630px;
+    background-color: #bbd8c4;
+    padding: 12px 20px;
+    margin-bottom: 50px;
+}
+div.phone-sidebar-left {
+    float: left;
+    width: 526px;
+}
+div.separator {
+    clear: left;
+}
+div.news-tab-deselected {
+    float: left;
+    width: 77px;
+    height: 34px;
+    margin-top: 9px;
+    border-top: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    background-color: #ddebe1;
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #328fc2;
+    text-align: center;
+    cursor: pointer;
+}
+div.news-tab-deselected:hover {
+    color: #123345;
+}
+div.news-tab-selected {
+    float: left;
+    width: 77px;
+    height: 34px;
+    padding-top: 9px;
+    border-top: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    background-color: #f5f5f5;
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #505050;
+    text-align: center;
+    cursor: pointer;
+}
+div.news-tab-selected:hover {
+    color: #a0a0a0;
+}
+div.archive-tab-deselected {
+    float: left;
+    width: 90px;
+    height: 34px;
+    margin-top: 9px;
+    border-top: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    background-color: #ddebe1;
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #328fc2;
+    text-align: center;
+    cursor: pointer;
+}
+div.archive-tab-deselected:hover {
+    color: #123345;
+}
+div.archive-tab-selected {
+    float: left;
+    width: 90px;
+    height: 34px;
+    padding-top: 9px;
+    border-top: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    background-color: #f5f5f5;
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #505050;
+    text-align: center;
+    cursor: pointer;
+}
+div.archive-tab-selected:hover {
+    color: #a0a0a0;
+}
+div.right-tab-extra {
+    float: left;
+    width: 85px;
+    height: 34px;
+    margin-top: 9px;
+    border-bottom: 1px solid #cccccc;
+}
+div.right-tab-content {
+    clear: left;
+    width: 223px;
+    padding: 30px 16px;
+    height: 33-px;
+    background-color: #f5f5f5;
+}
+#phone-sidebar-img {
+    position:absolute;
+    bottom:13px;
+    right:30px;
+}
+#login-button {
+    width: 100%;
+}
+div.footer {
+    clear: both;
+    width: 945px;
+    height: 45px;
+    padding-left: 105px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    background-color: #e7e8e9;
+}
+div.footer-copyright {
+    float: left;
+    height: 35px;
+    padding-top: 10px;
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: regular;
+    color: #328fc2;
+    text-align: left;
+}
+div.footer-tab{
+    float: right;
+    width: 100px;
+    height: 35px;
+    padding-top: 10px;
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: regular;
+    color: #328fc2;
+    text-align: center;
+    cursor: pointer;
+}
+div.footer-tab:hover{
+    color: #005b8c;
+}
+div.footer-tab-selected{
+    float: right;
+    width: 100px;
+    height: 35px;
+    padding-top: 10px;
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #328fc2;
+    text-align: center;
+    cursor: pointer;
+}
+div.footer-tab-selected:hover{
+    color: #005b8c;
+}
+#modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.4;
+}
+#login-screen {
+    position: fixed;
+    top: 140px;
+    left: 350px;
+    width: 390px;
+    padding: 30 30 0 30;
+    background-color: #ffffff;
+}
